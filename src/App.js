@@ -1,22 +1,28 @@
-import logo from './logo.svg';
+import logo from './assets/n.png';
 import './App.css';
+import React from "react";
+import Parse from "./Parse";
 
 function App() {
+
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Welcome.
+            The textbox below extracts the numbers contained on each line of an input text,
+            and returns a comma separated list of the numbers.
+
+            Enter this text:
+            "01010101randomText
+            randomText0000000
+            11111111111moreRandomText"
+
+            And you will receive, free of charge, this text:
+            "01010101, 0000000, 11111111111"
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+         <Parse/>
       </header>
     </div>
   );
