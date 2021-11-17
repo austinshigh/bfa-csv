@@ -49,7 +49,7 @@ class Parse extends React.Component {
                     cols={40}
                 />
                 </div></label>
-              <div><input id="submitButton" type="submit" value="Convert" /></div>
+              <div><input class="button1" type="submit" value="convert" /></div>
             </form>
           </div>
       );
