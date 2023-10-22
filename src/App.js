@@ -10,12 +10,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-            <h1>Welcome.</h1>
-            <div id="description">
-            <h5>
-                <p>You know what to do.</p>
-            </h5>
-            </div>
+            <h1>List Generator</h1>
         </p>
          <Parse/>
       </header>
